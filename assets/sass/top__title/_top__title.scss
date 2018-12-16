@@ -10,7 +10,7 @@
   &__headline {
     padding: 30px 0;
     color: #fff;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 300;
     text-transform: uppercase;
   }
@@ -20,11 +20,19 @@
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
+    &__highlighted-word {
+      color: #ec9da2;
+    }
   }
   &__paragraph__type2 {
     color: #ffcccf;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .top__title__headline {
+    font-size: 60px;
   }
 }
