@@ -1,0 +1,86 @@
+#menu {
+  display:none;
+  padding: 0;
+}
+.slicknav_menu {
+  display:block;
+  background: transparent;
+}
+.slicknav_btn {
+  background: transparent;
+}
+.slicknav_nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0 0 5px 5px;
+}
+.navigation__nav-item {
+  display: inline-block;
+  padding: 40px 25px 15px;
+  border-radius: 0 0 5px 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.homepage__nav-item {
+  transition: 0.3s;
+  &--active {
+    background-color: #74c7d5;
+  }
+  &:hover {
+    background-color: #74c7d5;
+    transition: 0.3s;
+  }
+}
+.services__nav-item {
+  transition: 0.3s;
+  &--active {
+    background-color: #df5c64;
+  }
+  &:hover {
+    background-color: #df5c64;
+    transition: 0.3s;
+  }
+}
+.about__nav-item {
+  transition: 0.3s;
+  &--active {
+    background-color: #91778e;
+  }
+  &:hover {
+    background-color: #91778e;
+    transition: 0.3s;
+  }
+}
+.work__nav-item {
+  transition: 0.3s;
+  &--active {
+    background-color: #a1ca6c;
+  }
+  &:hover {
+    background-color: #a1ca6c;
+    transition: 0.3s;
+  }
+}
+.contacts__nav-item {
+  transition: 0.3s;
+  &--active {
+    background-color: #82c8bd;
+  }
+  &:hover {
+    background-color: #82c8bd;
+    transition: 0.3s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slicknav_menu {
+    display:none;
+  }
+  #menu {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+}
