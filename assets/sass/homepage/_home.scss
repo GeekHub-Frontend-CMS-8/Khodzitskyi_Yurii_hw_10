@@ -27,7 +27,7 @@
   &-prev {
     z-index: 50;
     position: absolute;
-    top: 50vh;
+    top: 46vh;
     left: 10px;
     font-size: 50px;
     color: rgba(255, 255, 255, 0.5);
@@ -39,7 +39,7 @@
   &-next {
     position: absolute;
     display: inline-block;
-    top: 50vh;
+    top: 46vh;
     right: 10px;
     font-size: 50px;
     color: rgba(255, 255, 255, 0.5);
@@ -72,15 +72,15 @@
   align-items: center;
   height: 100vh;
   &__1 {
-    background:url("../../img/homepage/homepage__slider__image__1.png") center no-repeat;
+    background:url("../img/homepage/homepage__slider__image__1.png") center no-repeat;
     background-size: cover;
   }
   &__2 {
-    background: url("../../img/homepage/homepage__slider__image__2.png") center no-repeat;
+    background: url("../img/homepage/homepage__slider__image__2.png") center no-repeat;
     background-size: cover;
   }
   &__3 {
-    background:url("../../img/homepage/homepage__slider__image__1.png") center no-repeat;
+    background:url("../img/homepage/homepage__slider__image__1.png") center no-repeat;
     background-size: cover;
   }
 }
